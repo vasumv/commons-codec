@@ -93,7 +93,7 @@ limitations under the License.
       <email>ggregory at apache.org</email>
       <url>https://www.garygregory.com</url>
       <organization>The Apache Software Foundation</organization>
-      <organizationUrl>https://www.apache.org/</organizationUrl>      
+      <organizationUrl>https://www.apache.org/</organizationUrl>
       <roles>
         <role>PMC Member</role>
       </roles>
@@ -318,7 +318,7 @@ limitations under the License.
             <includeTestSourceDirectory>true</includeTestSourceDirectory>
             <resourceExcludes>NOTICE.txt,LICENSE.txt,**/pom.properties,**/sha512.properties</resourceExcludes>
           </configuration>
-        </plugin>        
+        </plugin>
       </plugins>
     </pluginManagement>
     <plugins>
@@ -332,6 +332,7 @@ limitations under the License.
             <exclude>src/test/resources/org/apache/commons/codec/bla.tar.xz</exclude>
             <exclude>src/test/resources/org/apache/commons/codec/empty.bin</exclude>
             <exclude>src/test/resources/org/apache/commons/codec/small.bin</exclude>
+            <exclude>.github/workflows/odo.yml</exclude>
           </excludes>
         </configuration>
       </plugin>
@@ -407,6 +408,7 @@ limitations under the License.
             <exclude>src/test/resources/org/apache/commons/codec/bla.tar.xz</exclude>
             <exclude>src/test/resources/org/apache/commons/codec/empty.bin</exclude>
             <exclude>src/test/resources/org/apache/commons/codec/small.bin</exclude>
+            <exclude>.github/workflows/odo.yml</exclude>
           </excludes>
         </configuration>
       </plugin>
